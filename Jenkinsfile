@@ -57,7 +57,8 @@ stages {
                 docker run -d \
                     --name sample-app-container \
                     --restart unless-stopped \
-                    -p 8081:80 \
+                    --env-file /opt/jenkins-demo/sample-app-auth.env \
+                    -p 8081:8080 \
                     "$DOCKER_IMAGE:$DOCKER_TAG"
             '''
         }

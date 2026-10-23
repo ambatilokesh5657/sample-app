@@ -1,8 +1,19 @@
-FROM nginx:alpine
+FROM node:22-alpine
 
-COPY index.html /usr/share/nginx/html/index.html
-COPY style.css /usr/share/nginx/html/style.css
-COPY script.js /usr/share/nginx/html/script.js
-COPY ram.jpg /usr/share/nginx/html/ram.jpg
+ENV NODE_ENV=production
+WORKDIR /app
 
-EXPOSE 80
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev --no-audit --no-fund
+
+COPY server.js login.html ./
+COPY index.html style.css script.js ram.jpg ./public/
+
+RUN addgroup -S app && adduser -S app -G app \
+    && chown -R app:app /app
+
+USER app
+
+EXPOSE 8080
+
+CMD ["node", "server.js"]

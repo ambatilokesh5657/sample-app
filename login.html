@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sign In | Shri Ram</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;
+font-family:Poppins,Arial,sans-serif;color:#40200e;
+background:radial-gradient(circle at top,#a94b12,#431500 75%)}
+.card{width:min(92%,410px);padding:36px;border:3px double #d6a542;
+border-radius:20px;background:#fff8e8;box-shadow:0 18px 55px #20090080}
+.symbol{text-align:center;font-size:48px;color:#a83b08}
+h1{text-align:center;font-size:27px;margin:8px 0;color:#702200}
+.subtitle{text-align:center;color:#865127;margin-bottom:26px}
+label{display:block;font-size:14px;font-weight:bold;margin:17px 0 7px}
+input{width:100%;padding:13px;border:1px solid #cda65d;border-radius:8px;
+font-size:16px;background:white}
+input:focus{outline:2px solid #a83b08;outline-offset:2px}
+button{width:100%;padding:14px;margin-top:24px;border:0;border-radius:25px;
+background:linear-gradient(135deg,#f7e2a1,#d8a23e);color:#572000;
+font-size:16px;font-weight:bold;cursor:pointer}
+.footer{text-align:center;margin-top:24px;font-size:14px;color:#865127}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="symbol" aria-hidden="true">॥ श्री राम ॥</div>
+<h1>Welcome</h1>
+<p class="subtitle">Sign in to continue to the Shri Ram website</p>
+<form action="/login" method="post">
+<label for="username">Username</label>
+<input id="username" name="username" autocomplete="username"
+required maxlength="100">
+<label for="password">Password</label>
+<input id="password" name="password" type="password"
+autocomplete="current-password" required maxlength="200">
+<button type="submit">Sign In</button>
+</form>
+<div class="footer">॥ जय श्री राम ॥</div>
+</main>
+</body>
+</html>
