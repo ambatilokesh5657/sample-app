@@ -1,35 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sample updated Website</title>
-    <link rel="stylesheet" href="style.css">
+
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shri Ram | Maryada Purushottam</title>
+
+<meta name="description"
+      content="Discover the life, virtues, and teachings of Lord Shri Ram.">
+
+<link rel="stylesheet" href="style.css">
+
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>My first website deployed using Jenkins and Docker!</p>
+<div class="outer-border">
+
+    <header class="hero">
+
+        <nav class="navbar">
+            <a href="#home" class="logo">॥ श्री राम ॥</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#virtues">Virtues</a>
+                <a href="#legend">Legend</a>
+                <a href="#names">Names</a>
+            </div>
+        </nav>
+
+        <div class="hero-content" id="home">
+
+            <p class="om-symbol">ॐ</p>
+
+            <p class="eyebrow">जय श्री राम</p>
+
+            <h1>Lord Shri Ram</h1>
+
+            <h2>Maryada Purushottam</h2>
+
+            <p class="hero-description">
+                The embodiment of truth, righteousness, courage,
+                compassion, and devotion.
+            </p>
+
+            <a href="#about" class="gold-button">
+                Discover His Divine Story ↓
+            </a>
+
+        </div>
+
     </header>
 
-    <main class="container">
-        <section class="card">
-            <h2>About Me</h2>
-            <p>Hello! I am learning HTML, CSS, JavaScript, Jenkins, and Docker.</p>
-            <p>This website is automatically deployed using a CI/CD pipeline.</p>
+    <main>
 
-            <button id="messageButton">Click Me</button>
-
-            <p id="message"></p>
+        <section class="blessing">
+            <span>॥ श्री राम जय राम जय जय राम ॥</span>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; <span id="year"></span> My Sample Website</p>
-    </footer>
+        <section class="content-section" id="about">
 
-    <script src="script.js"></script>
-</body>
-</html>
+            <p class="section-label">THE DIVINE INCARNATION</p>
 
+            <h2>About Lord Shri Ram</h2>
+
+            <div class="title-decoration">❈ ───── ❈</div>
+
+            <div class="about-grid">
+
+                <div class="ram-image-frame">
+
+                    <!-- Place ram.jpg in the same folder as index.html -->
+
+                    <img
+                        src="ram.jpg"
+                        alt="Lord Shri Ram"
+                        class="ram-image"
+                        onerror="this.style.display='none';
+                        document.getElementById('image-placeholder')
+                        .style.display='flex';"
+                    >
+
+                    <div id="image-placeholder" class="image-placeholder">
+                        <span class="placeholder-symbol">॥</span>
+                        <p>जय श्री राम</p>
+                        <small>Add your ram.jpg image to display Lord Shri Ram.</small>
+                    </div>
+
+                </div>
+
+                <div class="about-text">
+
+                    <p>
+                        Lord Rama is revered in Hinduism as the seventh
+                        incarnation of Lord Vishnu, the preserver of the
+                        universe. He represents righteousness, compassion,
+                        truth, courage, and the highest ideals of human
+                        conduct.
+                    </p>
+
+                    <p>
+                        Known as Maryada Purushottama, meaning the
+                        ideal man who upholds righteousness, Shri Ram
+                        is celebrated for his unwavering commitment to
+                        duty, respect for elders, love for family, and
+                        dedication to justice.
+                    </p>
+
+                    <p>
+                        His life and adventures are narrated in the
+                        ancient Hindu epic Ramayana, traditionally
+                        attributed to the sage Valmiki. The Ramcharitmanas
+                        by Goswami Tulsidas further popularized the
+                        devotion to Shri Ram.
+                    </p>
+
+                    <p>
+                        His story continues to inspire millions of people
+                        to follow the path of truth, humility, devotion,
+                        and selfless service.
+                    </p>
+
+                    <div class="quote-box">
+                        "Where there is righteousness, there is victory."
+                        <span>— Inspired by the ideals of Shri Ram</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="content-section virtues-section" id="virtues">
+
+            <p class="section-label">THE IDEAL OF PERFECTION</p>
+
+            <h2>Virtues of Lord Shri Ram</h2>
+
+            <div class="title-decoration">❈ ───── ❈</div>
+
+            <p class="section-intro">
+                Shri Ram's life represents timeless values that guide
+                humanity toward a life of integrity and compassion.
+            </p>
+
+            <div class="virtue-grid">
+
+                <article class="virtue-card">
+                    <span class="virtue-icon">🪷</span>
+                    <h3>Righteousness</h3>
+                    <p>
+                        He upheld dharma and remained committed to
+                        truth and duty, even in difficult circumstances.
+                    </p>
+                </article>
+
+                <article class="virtue-card">
+                    <span class="virtue-icon">🙏</span>
+                    <h3>Compassion</h3>
+                    <p>
+                        He treated others with kindness, respect,
+                        understanding, and generosity.
+                    </p>
+                </article>
+
+                <article class="virtue-card">
+                    <span class="virtue-icon">🛡️</span>
+                    <h3>Courage</h3>
+                    <p>
+                        He faced challenges fearlessly and stood
+                        firmly against injustice and evil.
+                    </p>
+                </article>
+
+                <article class="virtue-card">
+                    <span class="virtue-icon">🌺</span>
+                    <h3>Devotion</h3>
+                    <p>
+                        His life reflects dedication to duty, family,
+                        promises, and the principles of dharma.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="content-section legend-section" id="legend">
+
+            <p class="section-label">THE EPIC RAMAYANA</p>
+
+            <h2>The Legend of Lord
