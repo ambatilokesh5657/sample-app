@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
-:root { --silver: #a83b08; --deep-silver: #702200; --gold: #d6a542; --light-gold: #f6df9a; --cream: #fff8e8; --dark: #40200e; --white: #ffffff; }
+:root { --orange: #a83b08; --deep-orange: #702200; --gold: #d6a542; --light-gold: #f6df9a; --cream: #fff8e8; --dark: #40200e; --white: #ffffff; }
 
 { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -42,13 +42,13 @@ body { font-family: 'Poppins', sans-serif; background: #f5e4c1; color: var(--dar
 
 .gold-button:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); }
 
-.blessing { text-align: center; padding: 20px; color: var(--deep-silver); background: #f7e3ad; border-bottom: 2px solid var(--gold); font-size: 21px; font-weight: 700; letter-spacing: 1px; }
+.blessing { text-align: center; padding: 20px; color: var(--deep-orange); background: #f7e3ad; border-bottom: 2px solid var(--gold); font-size: 21px; font-weight: 700; letter-spacing: 1px; }
 
 .content-section { padding: 75px 8%; border-bottom: 1px solid #e7c983; }
 
-.section-label { text-align: center; color: var(--silver); letter-spacing: 3px; font-size: 12px; font-weight: 700; }
+.section-label { text-align: center; color: var(--orange); letter-spacing: 3px; font-size: 12px; font-weight: 700; }
 
-.content-section > h2 { text-align: center; font-family: 'Cinzel', serif; font-size: clamp(27px, 4vw, 40px); color: var(--deep-silver); line-height: 1.4; margin-top: 10px; }
+.content-section > h2 { text-align: center; font-family: 'Cinzel', serif; font-size: clamp(27px, 4vw, 40px); color: var(--deep-orange); line-height: 1.4; margin-top: 10px; }
 
 .title-decoration { text-align: center; color: var(--gold); font-size: 20px; margin: 10px 0 35px; }
 
@@ -68,7 +68,7 @@ body { font-family: 'Poppins', sans-serif; background: #f5e4c1; color: var(--dar
 
 .about-text p, .legend-content p { margin-bottom: 18px; font-size: 15px; text-align: justify; }
 
-.quote-box { margin-top: 25px; padding: 20px; border-left: 4px solid var(--gold); background: #fff0cb; color: var(--deep-silver); font-family: 'Cinzel', serif; font-weight: 600; }
+.quote-box { margin-top: 25px; padding: 20px; border-left: 4px solid var(--gold); background: #fff0cb; color: var(--deep-orange); font-family: 'Cinzel', serif; font-weight: 600; }
 
 .quote-box span { display: block; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; margin-top: 8px; }
 
@@ -84,7 +84,7 @@ body { font-family: 'Poppins', sans-serif; background: #f5e4c1; color: var(--dar
 
 .virtue-icon { font-size: 35px; }
 
-.virtue-card h3 { margin: 15px 0 10px; color: var(--silver); font-family: 'Cinzel', serif; font-size: 17px; }
+.virtue-card h3 { margin: 15px 0 10px; color: var(--orange); font-family: 'Cinzel', serif; font-size: 17px; }
 
 .virtue-card p { font-size: 13px; line-height: 1.9; }
 
@@ -98,7 +98,7 @@ body { font-family: 'Poppins', sans-serif; background: #f5e4c1; color: var(--dar
 
 .name-card:hover { background: #ffe9b3; transform: translateY(-4px); }
 
-.name-card span { display: block; font-family: serif; font-size: 27px; color: var(--deep-silver); font-weight: 700; }
+.name-card span { display: block; font-family: serif; font-size: 27px; color: var(--deep-orange); font-weight: 700; }
 
 .name-card p { font-size: 13px; margin-top: 8px; }
 
