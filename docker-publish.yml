@@ -28,4 +28,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/sample-app:latest
+          tags: rakiloki/sample-app:latest
+
